@@ -10,6 +10,6 @@
   "author": "Simon Berner",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.3.0"
+    "cypress": "^4.4.0"
   }
 }
