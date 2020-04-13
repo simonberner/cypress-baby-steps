@@ -1,0 +1,10 @@
+# WebStorm specific files
+.idea
+
+# JavaScript libaries (package dependencies)
+node_modules/
+
+# Cypress stuff
+cypress/integration/examples/*
+cypress/screenshots
+cypress/videos
