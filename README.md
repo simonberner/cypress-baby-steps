@@ -6,6 +6,7 @@ Let's have a look what one can really do with it!
 ## Libraries and plugins used
 
 - [Cypress](https://www.cypress.io/)
+- [TypeScript](https://docs.cypress.io/guides/tooling/typescript-support.html#Install-TypeScript)
 
 ## Dependencies
 
