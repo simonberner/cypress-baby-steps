@@ -7,6 +7,7 @@ Let's have a look what one can really do with it!
 
 - [Cypress](https://www.cypress.io/)
 - [TypeScript](https://docs.cypress.io/guides/tooling/typescript-support.html#Install-TypeScript)
+- [Cucumber-Preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
 
 ## Dependencies
 
