@@ -30,5 +30,5 @@ To run the tests, please ensure you have the following installed:
 `npm install` (`npm i`)
 * To run the tests from the terminal, run:
 `npm run cy:test`
-* To run the tests against the Cypress Test Runner, hit: `npm run cypress:open`
+* To run the tests against the Cypress Test Runner, hit: `npm run cypress:open` or `npx cypress open`
 * Once the test runner has loaded, click on the spec file you wish to test.
