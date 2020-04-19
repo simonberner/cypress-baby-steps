@@ -21,6 +21,7 @@ Make sure you have the following installed on your machine:
 - [Cypress](https://www.cypress.io/)
 - [TypeScript](https://docs.cypress.io/guides/tooling/typescript-support.html#Install-TypeScript)
 - [Cucumber-Preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
+- [cy-api](https://github.com/bahmutov/cy-api)
 
 ## Cucumber
 The lib [cypress-cucumber-preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor), makes it possible
@@ -30,6 +31,12 @@ The biggest advantage of writing tests in Gherkin is, that they are simple enoug
 ## Cypress Recorder
 With the [Cypress Recorder](http://www.cypressrecorder.com/) Chrome extension, you can record a Cypress web session.
 This extension may help you to speed up the development of your test scripts.
+
+## API Testing
+Compared to UI-Testing where we interact with the UI elements of an application, in [API Testing](https://www.edureka.co/blog/what-is-api-testing)
+we call with [HTTP requests](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) the applications business layer
+and verify its responses. The plugin [cy-api](https://github.com/bahmutov/cy-api) adds the custom command `cy.api` 
+to Cypress to additionally support API testing.
 
 ## How to run
 * Clone this repo and install the project dependencies with:
