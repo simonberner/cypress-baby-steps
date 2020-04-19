@@ -1,20 +1,7 @@
 # Cypress Baby Steps
 
 Everyone is talking about the JavaScript Testing-Framework [Cypress](https://www.cypress.io/) these days.
-Let's have a look what one can really do with it!
-
-## Libraries and plugins used
-
-- [Cypress](https://www.cypress.io/)
-- [TypeScript](https://docs.cypress.io/guides/tooling/typescript-support.html#Install-TypeScript)
-- [Cucumber-Preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
-
-## Dependencies
-
-To run the tests, please ensure you have the following installed:
-
-- [Node](https://nodejs.org) (The JavaScript runtime environment)
-- [NPM](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/) (Node Package Manager)
+Let's have a look with a few experiments, what one can do with it. Let's go!
 
 ## Why use Cypress
 - No other dependencies required to run tests as Cypress contains everything you need.
@@ -24,11 +11,30 @@ To run the tests, please ensure you have the following installed:
 
 ([Source](https://github.com/mdcruz))
 
-## How to run
+## Requirements
+Make sure you have the following installed on your machine:
 
+- [Node](https://nodejs.org) (The JavaScript runtime environment)
+- [NPM](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/) (Node Package Manager)
+
+## Libraries and plugins used
+- [Cypress](https://www.cypress.io/)
+- [TypeScript](https://docs.cypress.io/guides/tooling/typescript-support.html#Install-TypeScript)
+- [Cucumber-Preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
+
+## Cucumber
+The lib [cypress-cucumber-preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor), makes it possible
+to use feature files and [gherkin-syntaxed](https://www.guru99.com/gherkin-test-cucumber.html) specs to implement tests.
+The biggest advantage of writing tests in Gherkin is, that they are simple enough for non-programmers to be understood.
+
+## Cypress Recorder
+With the [Cypress Recorder](http://www.cypressrecorder.com/) Chrome extension, you can record a Cypress web session.
+This extension may help you to speed up the development of your test scripts.
+
+## How to run
 * Clone this repo and install the project dependencies with:
-`npm install` (`npm i`)
+`npm install` or `npm i`
+* To run the tests against the [Cypress Test Runner](https://docs.cypress.io/guides/core-concepts/test-runner.html#Overview), hit: `npm run cypress:open` or `npx cypress open`
+    * Once the test runner has loaded, click on the feature or spec file you wish to run.
 * To run the tests from the terminal, run:
 `npm run cy:test`
-* To run the tests against the Cypress Test Runner, hit: `npm run cypress:open` or `npx cypress open`
-* Once the test runner has loaded, click on the spec file you wish to test.
