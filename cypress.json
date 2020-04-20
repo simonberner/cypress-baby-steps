@@ -1,3 +1,4 @@
 {
-  "testFiles": "**/*.{feature,features,js}"
+  "testFiles": "**/*.{feature,features,js}",
+  "baseUrl": "http://jsonplaceholder.typicode.com"
 }
