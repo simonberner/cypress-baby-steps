@@ -1,4 +1,5 @@
 {
   "testFiles": "**/*.{feature,features,js}",
-  "baseUrl": "http://jsonplaceholder.typicode.com"
+  "baseUrl": "http://jsonplaceholder.typicode.com",
+  "watchForFileChanges": false
 }
