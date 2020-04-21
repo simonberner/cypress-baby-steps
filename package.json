@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:test": "cypress run"
   },
   "author": "Simon Berner",
   "license": "ISC",
