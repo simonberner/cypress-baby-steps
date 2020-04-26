@@ -9,8 +9,6 @@ Let's have a look with a few experiments, what one can do with it. Let's go!
 - Cypress supports BDD and TDD style assertion syntax so this would already be familiar to engineers who have used other JavaScript testing libraries.
 - Cypress Test Runner is useful in debugging your tests. You can also directly inspect from Chrome dev tools.  
 
-([Source](https://github.com/mdcruz))
-
 ## Requirements
 Make sure you have the following installed on your machine:
 
@@ -37,11 +35,17 @@ Compared to UI-Testing where we interact with the UI elements of an application,
 we call with [HTTP requests](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) the applications business layer
 and verify its responses. The plugin [cy-api](https://github.com/bahmutov/cy-api) adds the custom command `cy.api` 
 to Cypress to additionally support API testing.
+In the spec file ``sample_api.spec.js`` you will find some example tests. These tests run against
+http://jsonplaceholder.typicode.com and https://restful-booker.herokuapp.com.
 
 ## How to run
 * Clone this repo and install the project dependencies with:
 `npm install` or `npm i`
 * To run the tests against the [Cypress Test Runner](https://docs.cypress.io/guides/core-concepts/test-runner.html#Overview), hit: `npm run cypress:open` or `npx cypress open`
     * Once the test runner has loaded, click on the feature or spec file you wish to run.
-* To run the tests from the terminal, run:
+* To run the tests from the terminal, hit:
 `npm run cy:test`
+* To run all the tests headless (without the Cypress Test Runner), hit: `npx cypress run`
+
+## References
+Initial ideas for this project are taken from [Marie Drake](https://github.com/mdcruz)
