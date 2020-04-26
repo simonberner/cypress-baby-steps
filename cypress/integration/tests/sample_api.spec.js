@@ -1,6 +1,6 @@
 /// <reference types="@bahmutov/cy-api" />
 
-describe('The Post API', () => {
+describe('The JSONPlaceholder API', () => {
     it('loads all the posts successfully', () => {
         cy.api({url: '/posts'}).then((res) => {
             expect(res.status).to.equal(200);
@@ -32,4 +32,44 @@ describe('The Post API', () => {
             .its('status')
             .should('be.equal', 200);
     });
+});
+
+describe('The Restful-Booking API', () => {
+
+    it('loads all the bookings successfully', () => {
+        cy.api({url: 'https://restful-booker.herokuapp.com/booking'}).then((res) => {
+            expect(res.status).to.equal(200);
+            expect(res.body.length).to.equal(11);
+        });
+    });
+
+    it('should create a new booking successfully', () => {
+        cy.api({
+            method: 'POST',
+            url: 'https://restful-booker.herokuapp.com/booking',
+            body: {
+                firstname: "Sally",
+                lastname: "Brown",
+                totalprice: 111,
+                depositpaid: true,
+                additionalneeds: "Breakfast",
+                bookingdates: {
+                    checkin: "2025-02-23",
+                    checkout: "2025-10-23"
+                }
+            },
+        })
+            .then((res, messages) => {
+                expect(res.status).to.equal(200);
+                // TODO: assert the response-body
+            });
+    });
+
+    // TODO: add basic auth
+    it('should delete a booking successfully', () => {
+        cy.api({method: 'DELETE', url: 'https://restful-booker.herokuapp.com/booking/1'})
+            .its('status')
+            .should('be.equal', 200);
+    });
+
 });
