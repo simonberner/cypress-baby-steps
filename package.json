@@ -12,12 +12,12 @@
   "license": "ISC",
   "devDependencies": {
     "@bahmutov/cy-api": "^1.4.2",
-    "cypress": "^4.5.0",
+    "cypress": "^4.6.0",
     "cypress-cucumber-preprocessor": "^2.3.1",
     "cypress-iframe": "^1.0.1"
   },
   "dependencies": {
-    "typescript": "^3.9.2"
+    "typescript": "^3.9.3"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
