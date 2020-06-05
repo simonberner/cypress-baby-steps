@@ -38,6 +38,11 @@ to Cypress to additionally support API testing.
 In the spec file ``sample_api.spec.js`` you will find some example tests. These tests run against
 http://jsonplaceholder.typicode.com and https://restful-booker.herokuapp.com.
 
+## Cypress Testing Library
+The [cypress testing library](https://github.com/testing-library/cypress-testing-library) extends the cypress command ``cy`` with some useful find... functions.
+A complete list of all the available library definitions can be found [here](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/testing-library__cypress/index.d.ts).
+There is also a main Testing Library site made by [Kent C. Dodds](https://twitter.com/kentcdodds ) which you can find [here](https://testing-library.com/).
+
 ## How to run
 * Clone this repo and install the project dependencies with:
 `npm install` or `npm i`
