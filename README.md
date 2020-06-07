@@ -54,3 +54,7 @@ There is also a main Testing Library site made by [Kent C. Dodds](https://twitte
 
 ## References
 Initial ideas for this project are taken from [Marie Drake](https://github.com/mdcruz)
+
+## Learning Resources
+If one wants to learn more about the world of Testing in JavaScript, [Testing JavaScript](https://testingjavascript.com/) seems to be THE
+place to explore.
