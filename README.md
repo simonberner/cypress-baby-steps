@@ -56,5 +56,6 @@ There is also a main Testing Library site made by [Kent C. Dodds](https://twitte
 Initial ideas for this project are taken from [Marie Drake](https://github.com/mdcruz)
 
 ## Learning Resources
-If one wants to learn more about the world of Testing in JavaScript, [Testing JavaScript](https://testingjavascript.com/) seems to be THE
+- If one wants to learn more about the world of Testing in JavaScript, [Testing JavaScript](https://testingjavascript.com/) seems to be THE
 place to explore.
+- [The Most Common Cypress Mistakes](https://christianlydemann.com/the-most-common-cypress-mistakes/)
