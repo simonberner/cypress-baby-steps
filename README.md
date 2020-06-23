@@ -20,6 +20,8 @@ Make sure you have the following installed on your machine:
 - [TypeScript](https://docs.cypress.io/guides/tooling/typescript-support.html#Install-TypeScript)
 - [Cucumber-Preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
 - [cy-api](https://github.com/bahmutov/cy-api)
+- [cypress @testing-library/cypress](https://testing-library.com/docs/cypress-testing-library/intro)
+- [cypress-axe](https://github.com/avanslaars/cypress-axe)
 
 ## Cucumber
 The lib [cypress-cucumber-preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor), makes it possible
@@ -42,6 +44,15 @@ http://jsonplaceholder.typicode.com and https://restful-booker.herokuapp.com.
 The [cypress testing library](https://github.com/testing-library/cypress-testing-library) extends the cypress command ``cy`` with some useful find... functions.
 A complete list of all the available library definitions can be found [here](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/testing-library__cypress/index.d.ts).
 There is also a main Testing Library site made by [Kent C. Dodds](https://twitter.com/kentcdodds ) which you can find [here](https://testing-library.com/).
+
+## cypress-axe
+The cypress-axe package provides three simple commands to check for [web accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) issues in a application.
+These commands are:
+- [``cy.injectAxe()``](https://github.com/avanslaars/cypress-axe#cyinjectaxe)
+- [``cy.configureAxe``](https://github.com/avanslaars/cypress-axe#cyconfigureaxe)
+- [``cy.checkA11y()``](https://github.com/avanslaars/cypress-axe#cychecka11y)
+
+Some example can be found [here](https://github.com/avanslaars/cypress-axe#examples).
 
 ## How to run
 * Clone this repo and install the project dependencies with:
