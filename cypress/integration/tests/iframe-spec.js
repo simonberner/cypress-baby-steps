@@ -4,9 +4,9 @@
 // https://github.com/cypress-io/cypress-example-recipes/tree/master/examples/blogs__iframes
 
 describe('IFrame Testing in Cypress', () => {
-    const contentIframe = 'mce_0_ifr';
-    const boldIcon = 'mceu_3';
-    const italicIcon = 'mceu_4';
+    const contentIframe = '#mce_0_ifr';
+    const boldIcon = '#mceu_3';
+    const italicIcon = '#mceu_4';
     let text = 'Hello content iFrame!';
 
     beforeEach(() => {
@@ -19,9 +19,9 @@ describe('IFrame Testing in Cypress', () => {
             .type(text)
             .type('{command}a')
             .should('have.text', text);
-        cy.get('@boldIcon').click();
-        cy.get('@listIcon').click();
-        cy.switchToIframe(contentIframe).find('ul li strong').should('have.text', text);
+        cy.get(boldIcon).click();
+        cy.get(italicIcon).click();
+        cy.switchToIframe(contentIframe).findByText(text).should('have.text', text);
     });
 
 
