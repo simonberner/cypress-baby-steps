@@ -54,6 +54,15 @@ These commands are:
 
 Some example can be found [here](https://github.com/avanslaars/cypress-axe#examples).
 
+## Mochawesome report
+[Mochawesome report](https://github.com/adamgruber/mochawesome) is a custom reporter for use with the Javascript testing framework [Mocha](https://mochajs.org/).
+It runs on Node.js (>=8) and works in conjunction with [mochawesome-report-generator](https://github.com/adamgruber/mochawesome-report-generator) to generate
+a standalone HTML/CSS report to helps visualize your test results.
+### Mochawesome-merge
+Cypress executes each spec in isolation. This leads to Mocha generating a separate test report for each spec. Thus, there’s no out-of-the-box
+solution to generate one mochawesome report for all your specs. In order to make all spec as one single file, we need to install one more
+package which is [mochawesome-merge](https://github.com/Antontelesh/mochawesome-merge).
+
 ## How to run
 * Clone this repo and install the project dependencies with:
 `npm install` or `npm i`
