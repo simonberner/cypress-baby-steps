@@ -16,7 +16,8 @@
     "cypress": "^4.9.0",
     "cypress-axe": "^0.8.1",
     "cypress-cucumber-preprocessor": "^2.5.0",
-    "cypress-iframe": "^1.0.1"
+    "cypress-iframe": "^1.0.1",
+    "mochawesome": "^6.1.1"
   },
   "dependencies": {
     "typescript": "^3.9.5"
