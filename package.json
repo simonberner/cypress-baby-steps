@@ -15,7 +15,7 @@
     "@testing-library/cypress": "^6.0.0",
     "cypress": "^4.9.0",
     "cypress-axe": "^0.8.1",
-    "cypress-cucumber-preprocessor": "^2.5.0",
+    "cypress-cucumber-preprocessor": "^2.5.1",
     "cypress-iframe": "^1.0.1",
     "mochawesome": "^6.1.1",
     "mochawesome-merge": "^4.1.0",
