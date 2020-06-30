@@ -22,6 +22,7 @@ Make sure you have the following installed on your machine:
 - [cy-api](https://github.com/bahmutov/cy-api)
 - [cypress @testing-library/cypress](https://testing-library.com/docs/cypress-testing-library/intro)
 - [cypress-axe](https://github.com/avanslaars/cypress-axe)
+- [cypress-image-snapshot](https://github.com/palmerhq/cypress-image-snapshot)
 
 ## Cucumber
 The lib [cypress-cucumber-preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor), makes it possible
@@ -62,6 +63,13 @@ a standalone HTML/CSS report to helps visualize your test results.
 Cypress executes each spec in isolation. This leads to Mocha generating a separate test report for each spec. Thus, there’s no out-of-the-box
 solution to generate one mochawesome report for all your specs. In order to make all spec as one single file, we need to install one more
 package which is [mochawesome-merge](https://github.com/Antontelesh/mochawesome-merge).
+
+## Cypress Image Snapshot
+Under construction... 🚧
+
+## circleci
+### cypress-io/cypress@1.25.0
+This project integrates the [circelci orb for cypress](https://circleci.com/orbs/registry/orb/cypress-io/cypress)
 
 ## How to run
 * Clone this repo and install the project dependencies with:
