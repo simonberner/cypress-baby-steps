@@ -11,6 +11,7 @@
   "author": "Simon Berner",
   "license": "ISC",
   "devDependencies": {
+    "@applitools/eyes-cypress": "^3.12.3",
     "@bahmutov/cy-api": "^1.4.2",
     "@testing-library/cypress": "^6.0.0",
     "cypress": "^4.10.0",
