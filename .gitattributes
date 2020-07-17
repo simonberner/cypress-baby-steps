@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+# http://davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
+# https://gist.github.com/dreftymac/a589eea7d67e79bd84fe
+* text=auto
