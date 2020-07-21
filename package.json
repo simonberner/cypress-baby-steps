@@ -16,7 +16,7 @@
     "@testing-library/cypress": "^6.0.0",
     "cypress": "^4.10.0",
     "cypress-axe": "^0.8.1",
-    "cypress-cucumber-preprocessor": "^2.5.3",
+    "cypress-cucumber-preprocessor": "^2.5.4",
     "cypress-iframe": "^1.0.1",
     "cypress-image-snapshot": "^3.1.1",
     "cypress-intellij-reporter": "0.0.4",
