@@ -11,10 +11,10 @@
   "author": "Simon Berner",
   "license": "ISC",
   "devDependencies": {
-    "@applitools/eyes-cypress": "^3.12.3",
+    "@applitools/eyes-cypress": "^3.12.4",
     "@bahmutov/cy-api": "^1.4.2",
     "@testing-library/cypress": "^6.0.0",
-    "cypress": "^4.10.0",
+    "cypress": "^4.11.0",
     "cypress-axe": "^0.8.1",
     "cypress-cucumber-preprocessor": "^2.5.4",
     "cypress-iframe": "^1.0.1",
