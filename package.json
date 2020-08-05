@@ -14,7 +14,7 @@
     "@applitools/eyes-cypress": "^3.12.5",
     "@bahmutov/cy-api": "^1.4.2",
     "@testing-library/cypress": "^6.0.0",
-    "cypress": "^4.11.0",
+    "cypress": "^4.12.1",
     "cypress-axe": "^0.8.1",
     "cypress-cucumber-preprocessor": "^2.5.4",
     "cypress-file-upload": "^4.0.7",
